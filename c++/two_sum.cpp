@@ -1,8 +1,9 @@
 #include <iostream>
 #include <vector>
+
 using namespace std;
 using std::vector;
-
+   
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -11,7 +12,7 @@ public:
         {
             for (int j = 0; j < nums.size(); j++)
             {
-                if (nums[i] + nums[j] == target&&i!=j)
+                if (nums[i] + nums[j] == target&& i!=j)
                 {
                     // int index =std::distance(nums.begin(), nums.end());
                     vect.push_back(i);
