@@ -7,25 +7,7 @@ using std::vector;
 class Solution {
 public:
 
- int removeDuplicates(vector<int>& nums) {
-//    int count=0;
-//    int n=nums.size();
-//    int prev=nums[n - 1];
-//       for(int i=n-2;i>=0;i--){
-//           if(nums[i]==nums[i+1]){
-               
-//             ++count;
-//             int cur=nums[i];
-//             nums[i+1]=prev;
-//             prev=cur;n=n-1;
-//           }
-//       } for(int j=0;j<=n;j++){
-//           cout<<"array:"<<nums[j]<<"\n";
-//       }
-      
-//        cout<<" the number removed is:"<<count<<"n is:"<<n<<"\n";
-//   //  cout<<" nums size:"<<nums.size()<<"n is:"<<n<<"\n";
-//       return count; 
+ int removeDuplicates(vector<int>& nums) { 
   int n=nums.size();
 int count=1;
  for(int i=1;i<n;i++){
@@ -34,8 +16,11 @@ int count=1;
               count++;
           }
       } 
-
-
+      
+for(int j=0;j<n-count;j++){
+  cout<<"array: "<<nums[j]<<"length:"<<n-count<<"\n";
+}
+return count;
     }
 };
 
