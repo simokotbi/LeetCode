@@ -12,7 +12,7 @@ public:
         int number;
         int j=deliciousness.size()-1;
         int i=0;
-          while (i<j)
+          while (j!=0)
           {
              number=deliciousness[i]+deliciousness[j];
                 if(number==1){count++;}
