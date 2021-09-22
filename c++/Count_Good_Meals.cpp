@@ -22,7 +22,7 @@ public:
              if(number==1){
                  count++;
                 
-             }
+             } 
          }
          if(i==j-1){i=0;j--;}else{i++;}
           }
