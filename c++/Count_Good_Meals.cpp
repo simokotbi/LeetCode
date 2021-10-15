@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <unordered_map>
-
+  
 using namespace std;
 
 class Solution {
@@ -29,7 +29,7 @@ public:
            
          return count;
     }
-
+ 
 };
 int main(){
 Solution s;
